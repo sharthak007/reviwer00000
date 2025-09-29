@@ -114,14 +114,14 @@ const Landing = () => {
                 href="#papers"
                 className="group bg-white text-slate-900 hover:bg-indigo-50 font-semibold py-4 px-8 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1"
               >
-                Browse Papers
+                Browse Papers...
                 <span className="ml-2 inline-block transition-transform group-hover:translate-x-1">→</span>
               </a>
               <a
                 href="/register"
                 className="group border-2 border-white text-white hover:bg-white hover:text-slate-900 font-semibold py-4 px-8 rounded-xl transition-all duration-300 hover:-translate-y-1"
               >
-                Join Our Platform
+                  Join Our Platform
               </a>
             </div>
           </div>
