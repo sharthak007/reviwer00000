@@ -128,7 +128,7 @@ const Landing = () => {
         </div>
       </section>
 
-      {/* Search and Filter Section — FIXED: No overlap, clean positioning */}
+      {/* Search and Filter Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="bg-white rounded-2xl shadow-lg border border-slate-200 p-8 transition-all duration-300 hover:shadow-xl">
           <div className="flex flex-col md:flex-row gap-6">
@@ -171,7 +171,7 @@ const Landing = () => {
       </section>
 
       {/* Papers Section */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <section id="papers" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="flex justify-between items-center mb-12">
           <h2 className="text-3xl font-bold text-slate-900">
             Published Research Papers
@@ -264,6 +264,100 @@ const Landing = () => {
                 Get your research seen by academics and institutions worldwide through our indexed platform.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* About Us Section - IJEPA */}
+      <section className="bg-gradient-to-br from-slate-50 to-white py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-20">
+            <h2 className="text-4xl font-bold text-slate-900 mb-6">
+              About <span className="text-indigo-600">IJEPA</span>
+            </h2>
+            <div className="w-24 h-1 bg-indigo-600 mx-auto rounded-full"></div>
+          </div>
+
+          <div className="prose prose-lg max-w-4xl mx-auto text-slate-700 leading-relaxed">
+            <p className="mb-6">
+              The <strong>International Journal of Engineering Practices and Applications (IJEPA)</strong> is a peer-reviewed, open-access journal dedicated to advancing research, innovation, and practical applications in the field of engineering. Our mission is to serve as a trusted platform for scholars, researchers, practitioners, and industry professionals to share knowledge, exchange ideas, and contribute to the progress of engineering science and technology.
+            </p>
+            
+            <p className="mb-6">
+              IJEPA publishes monthly high-quality original research papers, review articles, and case studies that address theoretical foundations, experimental investigations, and real-world applications across diverse engineering disciplines. We welcome interdisciplinary work that bridges the gap between academic research and industry practices, fostering solutions to contemporary challenges.
+            </p>
+
+            <div className="mt-12 mb-8">
+              <h3 className="text-2xl font-bold text-slate-900 mb-4 flex items-center">
+                <span className="w-8 h-8 bg-indigo-100 text-indigo-700 rounded-lg flex items-center justify-center mr-3">✓</span>
+                Our Vision
+              </h3>
+              <p className="pl-11">
+                To become a globally recognized journal that drives innovation, disseminates impactful research, and promotes collaboration across engineering domains.
+              </p>
+            </div>
+
+            <div className="mb-8">
+              <h3 className="text-2xl font-bold text-slate-900 mb-4 flex items-center">
+                <span className="w-8 h-8 bg-purple-100 text-purple-700 rounded-lg flex items-center justify-center mr-3">✓</span>
+                Our Scope
+              </h3>
+              <p className="pl-11 mb-4">
+                IJEPA covers, but is not limited to, the following areas:
+              </p>
+              <ul className="pl-11 grid grid-cols-1 md:grid-cols-2 gap-2">
+                <li className="flex items-start">
+                  <span className="text-indigo-600 mr-2">•</span>
+                  <span>Civil, Mechanical, Electrical, and Electronics Engineering</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-indigo-600 mr-2">•</span>
+                  <span>Computer Science, Information Technology, and Artificial Intelligence</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-indigo-600 mr-2">•</span>
+                  <span>Industrial, Manufacturing, and Materials Engineering</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-indigo-600 mr-2">•</span>
+                  <span>Communication, Control, and Instrumentation Systems</span>
+                </li>
+                <li className="flex items-start md:col-span-2">
+                  <span className="text-indigo-600 mr-2">•</span>
+                  <span>Sustainable, Green, and Emerging Engineering Practices</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-indigo-50 rounded-2xl p-6 border border-indigo-100">
+              <h3 className="text-2xl font-bold text-slate-900 mb-4 flex items-center">
+                <span className="w-8 h-8 bg-blue-100 text-blue-700 rounded-lg flex items-center justify-center mr-3">✓</span>
+                Why Publish with Us?
+              </h3>
+              <ul className="pl-11 space-y-2">
+                <li className="flex items-start">
+                  <span className="text-green-600 mr-2">✓</span>
+                  <span>Rigorous peer-review process ensuring quality and credibility</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-600 mr-2">✓</span>
+                  <span>Open-access policy for maximum visibility and global reach</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-600 mr-2">✓</span>
+                  <span>Fast and efficient review and publication cycle</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-600 mr-2">✓</span>
+                  <span>Support for young researchers and academics worldwide</span>
+                </li>
+              </ul>
+            </div>
+
+            <p className="mt-8 text-center text-lg italic text-slate-600">
+              "At IJEPA, we believe that engineering is not just about knowledge creation but also about meaningful application. 
+              By connecting research with practice, we aim to contribute to technological growth and societal development."
+            </p>
           </div>
         </div>
       </section>
